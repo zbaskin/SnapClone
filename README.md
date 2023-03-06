@@ -7,4 +7,6 @@ For reference:
 
 [Marvel Snap](https://www.marvelsnap.com/)
 
+[Snap Cards](https://snap.fan/)
+
 [Howl's Moving Castle](https://en.wikipedia.org/wiki/Howl%27s_Moving_Castle_(film))
