@@ -1,5 +1,6 @@
 public class Ability {
     String abilityText;
+    int abilityCost;
     enum AbilityType {
         DESTROY,
         ONGOING,
@@ -8,4 +9,9 @@ public class Ability {
         MOVE,
         NONE
     };
+
+    public Ability() {
+        this.abilityText = "Placeholder";
+        this.abilityCost = 0;
+    }
 }
