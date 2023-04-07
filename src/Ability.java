@@ -10,8 +10,8 @@ public class Ability {
         NONE
     };
 
-    public Ability() {
-        this.abilityText = "Placeholder";
-        this.abilityCost = 0;
+    public Ability(String abilityText, int abilityCost) {
+        this.abilityText = abilityText;
+        this.abilityCost = abilityCost;
     }
 }
