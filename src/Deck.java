@@ -6,4 +6,9 @@ public class Deck {
         this.deck = null;
         this.deckLimit = 12;
     }
+
+    public Deck(Card[] deck) {
+        this.deck = deck;
+        this.deckLimit = 12;
+    }
 }
