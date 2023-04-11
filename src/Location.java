@@ -10,4 +10,9 @@ public class Location {
         this.playerHand = null;
         this.opponentHand = null;
     }
+
+    public Location(Ability locationAbility) {
+        super();
+        this.locationAbility = locationAbility;
+    }
 }
