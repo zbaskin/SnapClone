@@ -4,5 +4,6 @@ public class Profile {
 
     public Profile() {
         this.username = "Placeholder";
+        this.collectedCards = null;
     }
 }
