@@ -9,6 +9,7 @@ public class Ability {
         MOVE,
         NONE
     };
+    AbilityType ability;
 
     public Ability(String abilityText, int abilityCost) {
         this.abilityText = abilityText;
