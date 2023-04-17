@@ -11,8 +11,9 @@ public class Ability {
     };
     AbilityType ability;
 
-    public Ability(String abilityText, int abilityCost) {
+    public Ability(String abilityText, int abilityCost, AbilityType ability) {
         this.abilityText = abilityText;
         this.abilityCost = abilityCost;
+        this.ability = ability;
     }
 }
