@@ -1,6 +1,7 @@
 public class Ability {
     String abilityText;
     int abilityCost;
+    AbilityType ability;
     enum AbilityType {
         DESTROY,
         ONGOING,
@@ -9,7 +10,6 @@ public class Ability {
         MOVE,
         NONE
     };
-    AbilityType ability;
 
     public Ability(String abilityText, int abilityCost) {
         this.abilityText = abilityText;
