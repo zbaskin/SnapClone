@@ -4,6 +4,6 @@ public class Game {
     Profile[] userIDs;
 
     public Game() {
-
+        this.totalScore = 0;
     }
 }
