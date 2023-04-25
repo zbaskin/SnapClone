@@ -6,4 +6,8 @@ public class Game {
     public Game() {
         this.totalScore = 0;
     }
+
+    public Game(Profile[] userIDs) {
+        this.userIDs = userIDs;
+    }
 }
