@@ -8,6 +8,7 @@ public class Game {
     }
 
     public Game(Profile[] userIDs) {
+        super();
         this.userIDs = userIDs;
     }
 }
