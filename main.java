@@ -3,4 +3,5 @@ public class main {
     int cardPower = 0;
     int locationPower = 0;
     int handPower = 0;
+    Profile user;
 }
