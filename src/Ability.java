@@ -11,6 +11,12 @@ public class Ability {
         NONE
     };
 
+    public Ability() {
+        this.abilityText = "Placeholder";
+        this.abilityCost = 0;
+        this.ability = AbilityType.NONE;
+    }
+
     public Ability(String abilityText, int abilityCost, AbilityType ability) {
         this.abilityText = abilityText;
         this.abilityCost = abilityCost;
