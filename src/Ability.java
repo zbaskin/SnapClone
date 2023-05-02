@@ -22,4 +22,6 @@ public class Ability {
         this.abilityCost = abilityCost;
         this.ability = ability;
     }
+
+    Ability test = new Ability();
 }
