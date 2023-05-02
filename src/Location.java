@@ -15,4 +15,7 @@ public class Location {
         super();
         this.locationAbility = locationAbility;
     }
+
+    Ability none = new Ability();
+    Location test = new Location(none);
 }
