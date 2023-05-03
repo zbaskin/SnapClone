@@ -7,4 +7,6 @@ public class Profile {
         this.username = "Placeholder";
         this.collectedCards = null;
     }
+
+    Profile user = new Profile();
 }
