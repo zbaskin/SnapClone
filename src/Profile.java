@@ -10,4 +10,5 @@ public class Profile {
 
     Profile user = new Profile();
     Profile user2 = new Profile();
+    Profile user3 = new Profile();
 }
